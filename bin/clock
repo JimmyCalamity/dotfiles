@@ -1,4 +1,4 @@
 #! /bin/sh
-
+#Pipe prefered date format to bar
 DATE=$(date "+%a %d %H:%M")
 echo -n "$DATE"

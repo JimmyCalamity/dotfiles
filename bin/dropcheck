@@ -6,7 +6,7 @@ sync=$(dropbox status)
 
 #Check status and print status
 if [ "$sync" == "Up to date" ]; then
-	echo "[]"
+	echo -n "[]"
 else
-	echo "\f9[S]"
+	echo -n "\f9[S]"
 fi
