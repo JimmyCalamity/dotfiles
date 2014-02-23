@@ -8,9 +8,6 @@ dir=$HOME/games
 if [ "$1" = "cataclysm" ]; then
 		cd $dir/Cataclysm-DDA
 		urxvt -e ./cataclysm &
-elif [ "$1" = "wizardlizard" ]; then
-		cd $dir/A\ Wizard\'s\ Lizard/
-		./wizardslizard &
 elif [ "$1" = "minecraft" ]; then
 		java -jar $dir/minecraft/minecraft.jar
 fi
