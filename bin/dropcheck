@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#Dropbox-cli needed
+#Declare status of dropbox
+sync=$(dropbox status)
+
+#Check status and print status
+if [ "$sync" == "Up to date" ]; then
+	echo "[]"
+else
+	echo "\f9[S]"
+fi

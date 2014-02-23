@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#Declare Master mute status, Speaker mute status and volume level
+volStatus=$(amixer get Master | tail -n 1 | cut -d '[' -f 4 | sed 's/].*//g')
+volLevel=$(amixer get Master | tail -n 1 | cut -d '[' -f 2 | sed 's/%.*//g')
+speakerStatus=$(amixer get Speaker | tail -n 1 | cut -d '[' -f 4 | sed 's/].*//g')
+
+#Not muted and speaker on
+if [[ "$volStatus" == "on" && "$speakerStatus" == "on" ]]; then
+		echo "\f6"$volLevel"%"
+#Muted and speaker on
+elif [[ "$volStatus" == "off" && "$speakerStatus" == "on" ]]; then
+	echo "\f1"$volLevel"%"
+#Not muted and speaker off
+elif [[ "$volStatus" == "on" && "$speakerStatus" == "off" ]]; then
+	echo "\f3"$volLevel"%(H)"
+#Muted and speaker off
+elif [[ "$volStatus" == "off" && "$speakerStatus" == "off" ]]; then
+	echo "\f1"$volLevel"%(H)"
+fi

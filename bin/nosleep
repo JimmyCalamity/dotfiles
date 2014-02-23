@@ -1,0 +1,20 @@
+#!/bin/bash
+#Set screen blanking and DPMS
+
+#Check if DPMS is Enabled
+#If screen blanking is enabled, it will be and vice-versa
+status=$(xset q | grep Enabled)
+x=$?
+
+
+#If the argument is on, turn off blanking/DPMS
+if [ "$1" == "on" ]; then
+	xset -dpms; xset s off
+#If the argument is off, turn on blanking/DPMS
+elif [ "$1" == "off" ]; then
+	xset +dpms; xset s on
+#Check blanking/DPMS state and echo to bar as a reminder to eventually turn it back on
+#Currently set to something absolutely ridiculous
+elif [ "$x" -eq 1 ]; then
+	echo "\f1No Sleep till Brooklyn! \f7| "
+fi

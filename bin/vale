@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#Get url of current episode and properly format name
+current=$(lynx -dump http://nightvale.libsyn.com/ | grep mp3 | sed -re 's/^.{6}//' -ne 11p)
+name=$(lynx -dump http://nightvale.libsyn.com/ | grep mp3 | sed -ne 11p | sed -re 's/^.{42}//' -e 's/_/ /g' )
+
+dir="$HOME/music/Commonplace Books/Welcome to Night Vale/$name"
+
+#Download to Nightvale folder with correct name
+wget -qO "$dir/$name" $current
+

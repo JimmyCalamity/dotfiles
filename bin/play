@@ -1,0 +1,20 @@
+#!/bin/bash
+#Open game based on parameter
+
+#Declare game directory
+dir=$HOME/games
+
+#Read parameter and run executable
+if [ "$1" = "cataclysm" ]; then
+		cd $dir/Cataclysm-DDA
+		urxvt -e ./cataclysm &
+elif [ "$1" = "wizardlizard" ]; then
+		cd $dir/A\ Wizard\'s\ Lizard/
+		./wizardslizard &
+elif [ "$1" = "minecraft" ]; then
+		java -jar $dir/minecraft/minecraft.jar
+fi
+
+#elif [ "$1" = "" ]; then
+#		cd $dir
+#		./

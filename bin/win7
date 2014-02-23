@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#Set grub to pick Duet-Win7 menu entry
+sudo grub-reboot 'DUET-Win7'
+#Reboot system
+reboot

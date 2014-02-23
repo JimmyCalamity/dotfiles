@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#Declare output directory
+dir=$HOME/downloads
+
+#Check if file was explicitly named and notify when download finishes
+if [ "$2"  != "" ]; then
+	wget -O $dir/$2 $1 && notify-send 'Download Complete' "$2"
+else
+	wget -P $dir $1 && notify-send 'Download Complete' "$(basename $1)"
+fi

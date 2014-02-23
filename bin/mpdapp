@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#Get name of currently playing song
+current=$(mpc current)
+
+#Print name of song or print stopped
+if [ "$current" = "" ]; then
+	echo "[stopped]"
+else
+	echo "\f5$current"
+fi
+

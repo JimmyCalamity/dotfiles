@@ -1,0 +1,40 @@
+#! /bin/sh
+
+
+
+bspc monitor -d One Two Three
+
+bspc config border_width        2
+bspc config window_gap          10
+bspc config split_ratio         0.5
+bspc config borderless_monocle  true
+bspc config gapless_monocle     true
+bspc config top_padding         18
+bspc config focus_follows_pointer true
+
+bspc config focused_border_color "#009999"
+bspc config normal_border_color " #003366"
+
+bspc config top_padding 14
+
+########################
+## Restore Session: ##
+########################
+if [[ -s "$BSPWM_TREE" ]] {
+  bspc restore --tree "$BSPWM_TREE"
+  rm "$BSPWM_TREE"
+} else { bspc control --adopt-orphans }
+
+if [[ -s "$BSPWM_HISTORY" ]] {
+  bspc restore --history "$BSPWM_HISTORY"
+  rm "$BSPWM_HISTORY"
+}
+
+if [[ -s "$BSPWM_STACK" ]] {
+  bspc restore --stack "$BSPWM_STACK"
+  rm "$BSPWM_STACK"
+}
+
+bspc rule -a lxappearance floating=true center=true
+
+

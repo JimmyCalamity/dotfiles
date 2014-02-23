@@ -1,0 +1,8 @@
+
+! URxvt
+URxvt*scrollBar:                      false
+URxvt*background:                     [90]#5e615f
+URxvt*foreground:                     White
+URxvt*font:                           -misc-ohsnap-medium-r-normal--14-101-100-100-c-70-iso8859-1
+URxvt*depth:                          32
+

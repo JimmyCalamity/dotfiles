@@ -1,0 +1,52 @@
+#!/bin/bash
+#Move dotfiles to directory and upload to github
+
+#Declare output directory, files and directories to grab
+dir=~/dotfiles
+files="bashrc bash_profile Xresources Xdefaults ncmpcpp bin packages"
+directories="bspwm mpd sxhkd"
+
+# Update and backup list of installed packages
+cp ~/.packages ~/.packages~
+pacman -Qqe > ~/.packages
+
+#Iterate through files, copy them to git directory and remove leading period
+for i in $files; do
+	cp -rf ~/.$i $dir/$i
+done
+
+#Iterate through directores and copy recursively to git directory
+for h in $directories; do
+	rsync -a ~/.config/$h $dir/config
+done
+
+
+#Push all files and directories to git with commit message as current date and time
+#Get return value of git commands
+cd $dir
+git add -A
+x=$?
+git commit -m "$(date "+%a %d %H:%M")"
+y=$?
+git push origin master
+z=$?
+
+# Remove all files and directories, excluding README.md and dotfile directory
+# Uses shell option extglob
+rm -rf ~/dotfiles/config/*
+shopt -s extglob
+rm -rf !(README.md|config)
+shopt -u extglob
+
+#Notify if success, else report where problem occured
+if [ "$y" -eq "1" ]; then
+	notify-send -h string:fgcolor:#336699 'Dotfile Git' 'Everything up to date' --icon=dialog-information
+elif [ "$x" -eq "0" ] && [ "$z" -eq "0" ]; then
+	notify-send -h string:fgcolor:#00cc33 'Dotfile Git' 'Successfully updated' --icon=dialog-information
+elif [ "$x" -ne "0" ]; then
+	notify-send -h string:fgcolor:#cc0000 'Dotfile Git' 'Adding files has failed' --icon=dialog-information
+elif [ "$z" -ne "0" ]; then
+	notify-send -h string:fgcolor:#cc0000 'Dotfile Git' 'Pushing files has failed' --icon=dialog-information
+else
+	notify-send -h string:fgcolor:#cc0000 'Dotfile Git' 'Something strange went wrong' --icon=dialog-information
+fi

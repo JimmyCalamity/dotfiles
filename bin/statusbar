@@ -1,0 +1,8 @@
+#! /bin/sh
+#Status bar for bar-aint-recursive
+
+#Print current mpd song, dropbox status, volume and time
+while true ; do
+    echo "S  $(nosleep)$(mpdapp) \f7| \f6$(dropcheck) \f7| \f6$(volume) \f7| \f6$(clock)"
+    sleep 1
+done
