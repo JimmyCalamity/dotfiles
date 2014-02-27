@@ -93,7 +93,6 @@ mpc
 mpd
 mpv-git
 nano
-ncdu
 ncmpcpp
 netctl
 ntfs-3g
@@ -141,6 +140,7 @@ usbutils
 util-linux
 v86d
 vi
+wesnoth
 which
 wireless_tools
 wmname
