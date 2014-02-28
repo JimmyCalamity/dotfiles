@@ -2,7 +2,6 @@ sw_volume: 83
 audio_device_state:1:My ALSA Device
 audio_device_state:1:my_fifo
 state: stop
-current: 0
 random: 0
 repeat: 0
 single: 0
@@ -11,34 +10,4 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Akira Yamaoka/Silent Hill 2 OST/01 Theme of Laura.mp3
-1:Akira Yamaoka/Silent Hill 2 OST/02 White Noiz.mp3
-2:Akira Yamaoka/Silent Hill 2 OST/03 Forest.mp3
-3:Akira Yamaoka/Silent Hill 2 OST/04 A World Of Madness.mp3
-4:Akira Yamaoka/Silent Hill 2 OST/05 Ordinary Vanity.mp3
-5:Akira Yamaoka/Silent Hill 2 OST/06 Promise (Reprise).mp3
-6:Akira Yamaoka/Silent Hill 2 OST/07 Ashes and Ghosts.mp3
-7:Akira Yamaoka/Silent Hill 2 OST/08 Null Moon.mp3
-8:Akira Yamaoka/Silent Hill 2 OST/09 Heavens Night.mp3
-9:Akira Yamaoka/Silent Hill 2 OST/10 Alone in the Town.mp3
-10:Akira Yamaoka/Silent Hill 2 OST/11 The Darkness That Lurks in Our Mi.mp3
-11:Akira Yamaoka/Silent Hill 2 OST/12 Angel's Thanatos.mp3
-12:Akira Yamaoka/Silent Hill 2 OST/13 The Day of Night.mp3
-13:Akira Yamaoka/Silent Hill 2 OST/14 Block Mind.mp3
-14:Akira Yamaoka/Silent Hill 2 OST/15 Magdalene.mp3
-15:Akira Yamaoka/Silent Hill 2 OST/16 Fermata in Mistic Air.mp3
-16:Akira Yamaoka/Silent Hill 2 OST/17 Prisonic Fairytale.mp3
-17:Akira Yamaoka/Silent Hill 2 OST/18 Love Psalm.mp3
-18:Akira Yamaoka/Silent Hill 2 OST/19 Silent Heaven.mp3
-19:Akira Yamaoka/Silent Hill 2 OST/20 Noone Love You.mp3
-20:Akira Yamaoka/Silent Hill 2 OST/21 The Reverse Will.mp3
-21:Akira Yamaoka/Silent Hill 2 OST/22 Laura Plays the Piano.mp3
-22:Akira Yamaoka/Silent Hill 2 OST/23 Terror in the Depths of Fog.mp3
-23:Akira Yamaoka/Silent Hill 2 OST/24 True.mp3
-24:Akira Yamaoka/Silent Hill 2 OST/25 Betrayal.mp3
-25:Akira Yamaoka/Silent Hill 2 OST/26 Black Fairy.mp3
-26:Akira Yamaoka/Silent Hill 2 OST/27 Theme of Laura (Reprise).mp3
-27:Akira Yamaoka/Silent Hill 2 OST/28 Overdose Delusion.mp3
-28:Akira Yamaoka/Silent Hill 2 OST/29 Pianissimo Epilogue.mp3
-29:Akira Yamaoka/Silent Hill 2 OST/30 Promise.mp3
 playlist_end
