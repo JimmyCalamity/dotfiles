@@ -3,7 +3,7 @@
 #Get url of current episode and properly format name
 current=$(lynx -dump -listonly http://nightvale.libsyn.com/ | grep mp3 | sed -re 's/^.{6}//' -ne 1p)
 name=$(echo "$current" | sed -re 's/^.{36}//' -e 's/_/ /g')
-dir="$HOME/music/Commonplace Books/Welcome to Night Vale/$name"
+dir="$HOME/music/Commonplace Books/Welcome to Night Vale"
 
 #Download to Nightvale folder with correct name
 wget -qO "$dir/$name" $current
