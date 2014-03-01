@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 #Ignore common commands in the history file
-HISTIGNORE="cd:ls:[bf]g:clear:exit:cls"
+HISTIGNORE="cd:ls:[bf]g:clear:exit:cls:..:"
 
 # Ignore duplicate commands in the histore
 export HISTCONTROL=ignoredups
@@ -24,6 +24,7 @@ alias newmusic='ls -t ~/music | head'
 alias webserve='python -m http.server'
 alias webservebg='nohup python -m http.server > /tmp/.nohup.out &'
 alias dc='cd'
+alias nano='nano -w'
 
 # Aurget aliases
 alias aur='aurget -S'

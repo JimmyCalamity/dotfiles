@@ -70,6 +70,7 @@ inetutils
 intltool
 iproute2
 iputils
+jansson
 jfsutils
 jre7-openjdk
 less

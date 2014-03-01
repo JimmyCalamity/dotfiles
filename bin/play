@@ -7,9 +7,11 @@ dir=$HOME/games
 #Read parameter and run executable
 if [ "$1" = "cataclysm" ]; then
 		cd $dir/Cataclysm-DDA
-		urxvt -e ./cataclysm &
+		./cataclysm
 elif [ "$1" = "minecraft" ]; then
-		java -jar $dir/minecraft/minecraft.jar
+		java -jar $dir/minecraft/minecraft.jar &
+elif [ "$1" = "dynahack" ]; then
+		sh $dir/dynahack/dynahack
 fi
 
 #elif [ "$1" = "" ]; then
