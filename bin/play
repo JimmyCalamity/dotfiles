@@ -7,7 +7,8 @@ dir=$HOME/games
 #Read parameter and run executable
 if [ "$1" = "cataclysm" ]; then
 		cd $dir/Cataclysm-DDA
-		./cataclysm
+#Tell glibc to ignore double-free, issue with SDL_tff
+		MALLOC_CHECK_=0 ./cataclysm-tiles
 elif [ "$1" = "minecraft" ]; then
 		java -jar $dir/minecraft/minecraft.jar &
 elif [ "$1" = "dynahack" ]; then

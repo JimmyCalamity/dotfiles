@@ -116,10 +116,6 @@ super + space
 super + Escape
 	pkill -USR1 -x sxhkd
 	
-#Fortune
-ctrl + alt + f
-	notify-send "$(fortune)"
-
 #	
 #Volume hotkeys
 #
