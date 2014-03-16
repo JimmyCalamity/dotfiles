@@ -5,6 +5,9 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# MPD daemon start (if no other user instance exists)
+[ ! -s ~/.config/mpd/pid ] && mpd
+
 #Ignore common commands in the history file
 HISTIGNORE="cd:ls:[bf]g:clear:exit:cls:..:"
 
@@ -21,7 +24,7 @@ alias ls='ls --color=auto'
 alias ping="ping -c 5"
 alias rm='rm -i'
 alias newmusic='ls -t ~/music | head'
-alias webserve='python -m http.server'
+alias webserve='curl ifconfig.me && python -m http.server'
 alias webservebg='nohup python -m http.server > /tmp/.nohup.out &'
 alias dc='cd'
 alias nano='nano -w'

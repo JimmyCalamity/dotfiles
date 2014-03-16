@@ -30,9 +30,12 @@ dwarffortress
 dwarftherapist-hg
 e2fsprogs
 easytag
+evince-gtk
 fakeroot
 feedthebeast
 feh
+festival
+festival-english
 file
 file-roller
 filesystem
@@ -105,6 +108,7 @@ perl-linux-desktopfiles
 perl-unicode-string
 pkg-config
 pkg_scripts
+poppler-glib
 procps-ng
 psmisc
 pv

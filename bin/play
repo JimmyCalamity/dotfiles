@@ -6,15 +6,16 @@ dir=$HOME/games
 
 #Read parameter and run executable
 if [ "$1" = "cataclysm" ]; then
-		cd $dir/Cataclysm-DDA
-#Tell glibc to ignore double-free, issue with SDL_tff
-		MALLOC_CHECK_=0 ./cataclysm-tiles
+		sh $dir/Cataclysm-DDA/cataclysm-launcher
 elif [ "$1" = "minecraft" ]; then
 		java -jar $dir/minecraft/minecraft.jar &
 elif [ "$1" = "dynahack" ]; then
 		sh $dir/dynahack/dynahack
+elif [ "$1" = "psp" ]; then
+		cd $dir/ppsspp
+		./PPSSPPSDL
 fi
 
-#elif [ "$1" = "" ]; then
-#		cd $dir
-#		./
+#~ elif [ "$1" = "" ]; then
+#~ 		cd $dir
+#~ 		./

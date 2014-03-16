@@ -1,7 +1,9 @@
-sw_volume: 85
+sw_volume: 99
 audio_device_state:1:My ALSA Device
 audio_device_state:1:my_fifo
-state: stop
+state: play
+current: 0
+time: 107
 random: 0
 repeat: 0
 single: 0
@@ -10,4 +12,17 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
+0:Babymetal/Babymetal/01 Babymetal - Babymetal Death.mp3
+1:Babymetal/Babymetal/02 Babymetal - Megitsune.mp3
+2:Babymetal/Babymetal/03 Babymetal - Gimme Choko!!.mp3
+3:Babymetal/Babymetal/04 Babymetal - Ii ne!.mp3
+4:Babymetal/Babymetal/05 Babymetal - Benitsuki -Akatsuki-.mp3
+5:Babymetal/Babymetal/06 Babymetal - Do・Ki・Do・Ki☆MORNING.mp3
+6:Babymetal/Babymetal/07 Babymetal - Onedari Daisakusen.mp3
+7:Babymetal/Babymetal/08 Babymetal - 4 no Uta.mp3
+8:Babymetal/Babymetal/09 Babymetal - 'U.ki.U.ki★Midnight.mp3
+9:Babymetal/Babymetal/10 Babymetal - Catch Me If You Can.mp3
+10:Babymetal/Babymetal/11 Babymetal - Akumu no Rinbukyoku.mp3
+11:Babymetal/Babymetal/12 Babymetal - Headbanger!!.mp3
+12:Babymetal/Babymetal/13 Babymetal - Ijime, Dame, Zettai.mp3
 playlist_end

@@ -9953,6 +9953,131 @@ mtime: 1392429634
 song_end
 end: Avenged Sevenfold/Waking the Fallen
 end: Avenged Sevenfold
+directory: Babymetal
+mtime: 1394981032
+begin: Babymetal
+directory: Babymetal
+mtime: 1394981061
+begin: Babymetal/Babymetal
+song_begin: 01 Babymetal - Babymetal Death.mp3
+Time: 349
+Artist: Babymetal
+Title: Babymetal Death
+Album: Babymetal
+Track: 1
+Date: 2014
+mtime: 1393347823
+song_end
+song_begin: 02 Babymetal - Megitsune.mp3
+Time: 249
+Artist: Babymetal
+Title: Megitsune
+Album: Babymetal
+Track: 2
+Date: 2014
+mtime: 1393347823
+song_end
+song_begin: 03 Babymetal - Gimme Choko!!.mp3
+Time: 233
+Artist: Babymetal
+Title: Gimme Choko!!
+Album: Babymetal
+Track: 3
+Date: 2014
+mtime: 1393347944
+song_end
+song_begin: 04 Babymetal - Ii ne!.mp3
+Time: 251
+Artist: Babymetal
+Title: Ii ne!
+Album: Babymetal
+Track: 4
+Date: 2014
+mtime: 1393347902
+song_end
+song_begin: 05 Babymetal - Benitsuki -Akatsuki-.mp3
+Time: 328
+Artist: Babymetal
+Title: Benitsuki -Akatsuki-
+Album: Babymetal
+Track: 5
+Date: 2014
+mtime: 1393347823
+song_end
+song_begin: 06 Babymetal - Do・Ki・Do・Ki☆MORNING.mp3
+Time: 227
+Artist: Babymetal
+Title: Do·Ki·Do·Ki?MORNING
+Album: Babymetal
+Track: 6
+Date: 2014
+mtime: 1393347864
+song_end
+song_begin: 07 Babymetal - Onedari Daisakusen.mp3
+Time: 198
+Artist: Babymetal
+Title: Onedari Daisakusen
+Album: Babymetal
+Track: 7
+Date: 2014
+mtime: 1393347944
+song_end
+song_begin: 08 Babymetal - 4 no Uta.mp3
+Time: 245
+Artist: Babymetal
+Title: 4 no Uta
+Album: Babymetal
+Track: 8
+Date: 2014
+mtime: 1393347924
+song_end
+song_begin: 09 Babymetal - 'U.ki.U.ki★Midnight.mp3
+Time: 199
+Artist: Babymetal
+Title: "U.ki.U.ki?Midnight
+Album: Babymetal
+Track: 9
+Date: 2014
+mtime: 1393347949
+song_end
+song_begin: 10 Babymetal - Catch Me If You Can.mp3
+Time: 238
+Artist: Babymetal
+Title: Catch Me If You Can
+Album: Babymetal
+Track: 10
+Date: 2014
+mtime: 1393347864
+song_end
+song_begin: 11 Babymetal - Akumu no Rinbukyoku.mp3
+Time: 217
+Artist: Babymetal
+Title: Akumu no Rinbukyoku
+Album: Babymetal
+Track: 11
+Date: 2014
+mtime: 1393347949
+song_end
+song_begin: 12 Babymetal - Headbanger!!.mp3
+Time: 243
+Artist: Babymetal
+Title: Headbanger!!
+Album: Babymetal
+Track: 12
+Date: 2014
+mtime: 1393347864
+song_end
+song_begin: 13 Babymetal - Ijime, Dame, Zettai.mp3
+Time: 366
+Artist: Babymetal
+Title: Ijime, Dame, Zettai
+Album: Babymetal
+Track: 13
+Date: 2014
+mtime: 1393347882
+song_end
+end: Babymetal/Babymetal
+end: Babymetal
 directory: Bad Astronaut
 mtime: 1392429634
 begin: Bad Astronaut
@@ -20277,8 +20402,16 @@ directory: Commonplace Books
 mtime: 1391708103
 begin: Commonplace Books
 directory: Welcome to Night Vale
-mtime: 1393695182
+mtime: 1394899202
 begin: Commonplace Books/Welcome to Night Vale
+song_begin: 43 - Visitor.mp3
+Time: 1825
+Artist: Commonplace Books
+Title: 43 - Visitor
+Album: Welcome to Night Vale
+Date: 2014
+mtime: 1394833146
+song_end
 song_begin: 01 - Pilot.mp3
 Time: 1246
 Artist: Commonplace Books
