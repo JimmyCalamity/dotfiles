@@ -7,6 +7,8 @@ sync=$(dropbox status)
 #Check status and print status
 if [ "$sync" == "Up to date" ]; then
 	echo -n "[]"
+elif [ "$sync" == "Dropbox isn't running!" ]; then
+	echo -n "\f8[X]"
 else
 	echo -n "\f9[S]"
 fi

@@ -22778,158 +22778,6 @@ mtime: 1391707167
 song_end
 end: Dashboard Confessional/The Swiss Army Romance
 end: Dashboard Confessional
-directory: Daughtry
-mtime: 1392429855
-begin: Daughtry
-directory: Daughtry
-mtime: 1392429856
-begin: Daughtry/Daughtry
-song_begin: 01 It's Not Over.m4a
-Time: 215
-Artist: Daughtry
-Album: Daughtry
-Title: It's Not Over
-Track: 1/12
-Genre: Rock
-Date: 2006
-Composer: Ben Moody/Brett Young/Mark Wilkerson/Gregg Wattenberg/Chris Daughtry
-Disc: 1/1
-mtime: 1392429855
-song_end
-song_begin: 02 Used To.m4a
-Time: 212
-Artist: Daughtry
-Album: Daughtry
-Title: Used To
-Track: 2/12
-Genre: Rock
-Date: 2006
-Composer: Chris Daughtry/Zac Malroy/Howard Benson
-Disc: 1/1
-mtime: 1392429855
-song_end
-song_begin: 03 Home.m4a
-Time: 255
-Artist: Daughtry
-Album: Daughtry
-Title: Home
-Track: 3/12
-Genre: Rock
-Date: 2006
-Composer: Chris Daughtry
-Disc: 1/1
-mtime: 1392429855
-song_end
-song_begin: 04 Over You.m4a
-Time: 207
-Artist: Daughtry
-Album: Daughtry
-Title: Over You
-Track: 4/12
-Genre: Rock
-Date: 2006
-Composer: Ben Moody/Chris Daughtry/Brian Howes
-Disc: 1/1
-mtime: 1392429856
-song_end
-song_begin: 05 Crashed.m4a
-Time: 211
-Artist: Daughtry
-Album: Daughtry
-Title: Crashed
-Track: 5/12
-Genre: Rock
-Date: 2006
-Composer: Chris Daughtry/Nina Ossoff/Kathy Sommer/Dana Calitri
-Disc: 1/1
-mtime: 1392429856
-song_end
-song_begin: 06 Feels Like Tonight.m4a
-Time: 241
-Artist: Daughtry
-Album: Daughtry
-Title: Feels Like Tonight
-Track: 6/12
-Genre: Rock
-Date: 2006
-Composer: Lukasz Gottwald/Shep Solomon/Martin Sandberg
-Disc: 1/1
-mtime: 1392429856
-song_end
-song_begin: 07 What I Want (ft. Slash).m4a
-Time: 168
-Artist: Daughtry
-Album: Daughtry
-Title: What I Want (ft. Slash)
-Track: 7/12
-Genre: Rock
-Date: 2006
-Composer: Chris Daughtry/Brian Howes
-Disc: 1/1
-mtime: 1392429856
-song_end
-song_begin: 08 Breakdown.m4a
-Time: 241
-Artist: Daughtry
-Album: Daughtry
-Title: Breakdown
-Track: 8/12
-Genre: Rock
-Date: 2006
-Composer: Chris Daughtry
-Disc: 1/1
-mtime: 1392429856
-song_end
-song_begin: 09 Gone.m4a
-Time: 201
-Artist: Daughtry
-Album: Daughtry
-Title: Gone
-Track: 9/12
-Genre: Rock
-Date: 2006
-Composer: Chris Daughtry
-Disc: 1/1
-mtime: 1392429856
-song_end
-song_begin: 10 There And Back Again.m4a
-Time: 195
-Artist: Daughtry
-Album: Daughtry
-Title: There And Back Again
-Track: 10/12
-Genre: Rock
-Date: 2006
-Composer: Chris Daughtry/Brent Smith
-Disc: 1/1
-mtime: 1392429856
-song_end
-song_begin: 11 All These Lives.m4a
-Time: 204
-Artist: Daughtry
-Album: Daughtry
-Title: All These Lives
-Track: 11/12
-Genre: Rock
-Date: 2006
-Composer: Mitch Allan/Chris Daughtry
-Disc: 1/1
-mtime: 1392429856
-song_end
-song_begin: 12 What About Now.m4a
-Time: 250
-Artist: Daughtry
-Album: Daughtry
-Title: What About Now
-Track: 12/12
-Genre: Rock
-Date: 2006
-Composer: David Hodges/Ben Moody
-Disc: 1/1
-mtime: 1392429856
-song_end
-end: Daughtry/Daughtry
-end: Daughtry
 directory: Dave Melillo
 mtime: 1391707167
 begin: Dave Melillo
@@ -23897,6 +23745,74 @@ mtime: 1391707209
 song_end
 end: Dio/Holy Diver
 end: Dio
+directory: Disparition
+mtime: 1395512937
+begin: Disparition
+directory: When Fourteen Suns
+mtime: 1284332436
+begin: Disparition/When Fourteen Suns
+song_begin: 01 The Stolen and Perverted.mp3
+Time: 271
+Artist: Disparition
+Title: The Stolen and Perverted
+Album: When fourteen suns
+Track: 01/06
+Date: 2006
+Genre: Ambient
+mtime: 1160877160
+song_end
+song_begin: 02 who is the Vehicular.mp3
+Time: 200
+Artist: Disparition
+Title: who is the Vehicular
+Album: When fourteen suns
+Track: 02/06
+Date: 2006
+Genre: Ambient
+mtime: 1160877256
+song_end
+song_begin: 03 Disguise in whispered hymn.mp3
+Time: 159
+Artist: Disparition
+Title: Disguise in whispered hymn
+Album: When fourteen suns
+Track: 03/06
+Date: 2006
+Genre: Ambient
+mtime: 1160877340
+song_end
+song_begin: 04 And the roots of Albion's Tree.mp3
+Time: 389
+Artist: Disparition
+Title: And the roots of Albion's Tree
+Album: When fourteen suns
+Track: 04/06
+Date: 2006
+Genre: Ambient
+mtime: 1160877508
+song_end
+song_begin: 05 blind and age-bent wept.mp3
+Time: 267
+Artist: Disparition
+Title: blind and age-bent wept
+Album: When fourteen suns
+Track: 05/06
+Date: 2006
+Genre: Ambient
+mtime: 1160877600
+song_end
+song_begin: 06 no City nor Corn-field.mp3
+Time: 240
+Artist: Disparition
+Title: no City nor Corn-field
+Album: When fourteen suns
+Track: 06/06
+Date: 2006
+Genre: Ambient
+mtime: 1160877649
+song_end
+end: Disparition/When Fourteen Suns
+end: Disparition
 directory: Dragonforce
 mtime: 1392429881
 begin: Dragonforce
@@ -24307,108 +24223,99 @@ Time: 237
 Artist: Drive By Argument
 Title: The Sega Method
 Album: Drive by Argument
-Track: 1/10
-Date: 2008-05-12
-Genre: Indie
+Track: 01/10
+Date: 2008
 Genre: Indie
 Disc: 1/1
-mtime: 1392429888
+mtime: 1395500243
 song_end
 song_begin: 02 Dance Like No One's Watching (Rem.mp3
 Time: 201
 Artist: Drive By Argument
 Title: Dance Like No One's Watching (Remixed By Alan Moulder
 Album: Drive by Argument
-Track: 2/10
-Date: 2008-05-12
-Genre: Indie
+Track: 02/10
+Date: 2008
 Genre: Indie
 Disc: 1/1
-mtime: 1392429888
+mtime: 1395500243
 song_end
 song_begin: 03 There's Nothing As Epic As Golden.mp3
 Time: 228
 Artist: Drive By Argument
 Title: There's Nothing As Epic As Golden Axe
 Album: Drive by Argument
-Track: 3/10
-Date: 2008-05-12
-Genre: Indie
+Track: 03/10
+Date: 2008
 Genre: Indie
 Disc: 1/1
-mtime: 1392429888
+mtime: 1395500243
 song_end
 song_begin: 04 Sex Line's Are Expensive Comedy.mp3
 Time: 185
 Artist: Drive By Argument
 Title: Sex Line's Are Expensive Comedy
 Album: Drive by Argument
-Track: 4/10
-Date: 2008-05-12
-Genre: Indie
+Track: 04/10
+Date: 2008
 Genre: Indie
 Disc: 1/1
-mtime: 1392429888
+mtime: 1395500243
 song_end
 song_begin: 05 Eye Fish Star Fish Eye.mp3
 Time: 256
 Artist: Drive By Argument
 Title: Eye Fish Star Fish Eye
 Album: Drive by Argument
-Track: 5/10
-Date: 2008-05-12
-Genre: Indie
+Track: 05/10
+Date: 2008
 Genre: Indie
 Disc: 1/1
-mtime: 1392429889
+mtime: 1395500243
 song_end
 song_begin: 06 How The Trees Sleep.mp3
 Time: 341
 Artist: Drive By Argument
 Title: How The Trees Sleep
 Album: Drive by Argument
-Track: 6/10
-Date: 2008-05-12
-Genre: Indie
+Track: 06/10
+Date: 2008
 Genre: Indie
 Disc: 1/1
-mtime: 1392429889
+mtime: 1395500243
 song_end
 song_begin: 07 Disco Storm.mp3
 Time: 196
 Artist: Drive By Argument
 Title: Disco Storm
 Album: Drive by Argument
-Track: 7/10
-Date: 2008-05-12
-Genre: Indie
+Track: 07/10
+Date: 2008
 Genre: Indie
 Disc: 1/1
-mtime: 1392429889
+mtime: 1395500243
 song_end
 song_begin: 08 Lower Your Pieces.mp3
 Time: 270
 Artist: Drive By Argument
 Title: Lower Your Pieces
 Album: Drive by Argument
-Track: 8/10
-Date: 2008-05-12
-Genre: Indie
+Track: 08/10
+Date: 2008
 Genre: Indie
 Disc: 1/1
-mtime: 1392429889
+mtime: 1395500243
 song_end
 song_begin: 09 We Techno Prisoners.mp3
 Time: 189
 Artist: Drive By Argument
 Title: We Techno Prisoners
 Album: Drive by Argument
-Track: 9/10
-Date: 2008-05-12
-Genre: Indie
+Track: 09/10
+Date: 2008
 Genre: Indie
 Disc: 1/1
-mtime: 1392429889
+mtime: 1395500243
 song_end
 song_begin: 10 Cyclists Run Red Lights.mp3
 Time: 261
@@ -24416,11 +24323,10 @@ Artist: Drive By Argument
 Title: Cyclists Run Red Lights
 Album: Drive by Argument
 Track: 10/10
-Date: 2008-05-12
-Genre: Indie
+Date: 2008
 Genre: Indie
 Disc: 1/1
-mtime: 1392429889
+mtime: 1395500243
 song_end
 end: Drive By Argument/Drive by Argument
 end: Drive By Argument
